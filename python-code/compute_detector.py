@@ -82,7 +82,7 @@ if __name__ == '__main__':
     if len(sys.argv) >= 9:
         num_keypoint = int(sys.argv[8])
     else:
-        num_keypoint = 1000
+        num_keypoint = None # Unlimited by default
 
 
     # ------------------------------------------------------------------------
